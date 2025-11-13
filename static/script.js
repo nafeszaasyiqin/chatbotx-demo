@@ -36,7 +36,7 @@
 				document.getElementById("options").innerHTML="";
 
 				//Send message to backend
-				const response = await fetch("http://127.0.0.1:8000/chat", {
+				const response = await fetch("https://chatbotx-demo.onrender.com/chat", {
 					method:"POST",
 					headers: {"Content-Type": "application/json"},
 					body: JSON.stringify({user_id,mesej:message}),
