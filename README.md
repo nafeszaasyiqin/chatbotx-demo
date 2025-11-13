@@ -3,7 +3,7 @@
 
 Chatbotx is a rule-based chatbot built with FastAPI that recognizes basic user intents such as greetings, operating hours, outlet inquiries, and simple calculations. It also maintains short-term conversation memory for contextual replies.
 
-## 🚀 Setup & Run Instructions
+## Setup & Run Instructions
 1. Clone the repo:
    ```bash
    git clone https://github.com/nafeszaasyiqin/chatbotx-demo.git
@@ -14,7 +14,6 @@ Chatbotx is a rule-based chatbot built with FastAPI that recognizes basic user i
    python -m venv venv
    source venv/bin/activate  # (Windows: venv\Scripts\activate)
    pip install -r requirements.txt
-
 
 3. Run the app locally:
   ```bash
